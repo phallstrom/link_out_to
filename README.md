@@ -1,5 +1,6 @@
 # LinkOutToHelper
 
+[![Gem Version](https://badge.fury.io/rb/link_out_to_helper.png)](http://badge.fury.io/rb/link_out_to_helper)
 
 ## Installation
 
@@ -17,8 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-Use just like you would `link_to`, but know that it will add 
-`:target => '_blank'` as an option.
+Use just like you would `link_to`, but know that it will merge 
+`:target => '_blank'` into the options hash for `link_to`.
 
 ## Contributing
 
