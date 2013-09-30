@@ -11,6 +11,7 @@ Gem::Specification.new do |gem|
   gem.description   = %q{link_out_to automatically sets a :target of _blank to your links.}
   gem.summary       = %q{link_out_to automatically sets a :target of _blank to your links.}
   gem.homepage      = "https://github.com/phallstrom/link_out_to"
+  gem.license       = "MIT"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
